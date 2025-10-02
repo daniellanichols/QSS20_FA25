@@ -2,6 +2,12 @@ import sys
 import argparse
 
 
+def count_words(text):
+    text_list = text.split(" ")
+    text_list_clean = [x for x in text_list if x != ""]
+    return len(text_list_clean)
+
+
 def parse_args(argv=None):
     p = argparse.ArgumentParser(description="Count words.")
     g = p.add_mutually_exclusive_group(required=True)
