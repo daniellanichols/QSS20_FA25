@@ -1,0 +1,7 @@
+_extensions/
+quizzes/
+_archive/
+.DS_Store
+.luarc.json
+.vscode/
+__pycache__/
