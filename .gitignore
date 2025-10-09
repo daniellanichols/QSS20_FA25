@@ -5,3 +5,5 @@ _archive/
 .luarc.json
 .vscode/
 __pycache__/
+.luarc.json
+.ipynb_checkpoints/
